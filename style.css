@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 1500px;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    width: 10%;
+    right: 0px;
+    top: 0;
+    margin: 0;
+    z-index: 99;
+}
+
+.spot{
+    position: absolute;
+    width: 11%;
+    right: -3vw;
+    top: -10vh;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    display: none;
+  }
+
+.scroll-drop{
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    right: -0.5vw;
+    top: 0vh;
+    width: 16px;
+    height: 100px;
+    border-radius: 0 0 90px 90px;
+    background-color: #51f90e;
+    scroll-behavior: smooth;
+}
+
+.scroll-drop-second{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    right: 2vw;
+    top: 7vh;
+    width: 16px;
+    height: 150px;
+    border-radius: 0 0 90px 90px;
+    background-color: #51f90e;
+    scroll-behavior: smooth;
+}
