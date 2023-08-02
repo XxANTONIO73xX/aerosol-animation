@@ -8,7 +8,7 @@ window.onscroll = function(e){
     realHeigth = drop2.style.height;
 
     if(this.scrollY < 50){
-        height2 = this.scrollY + 150;
+        height2 = this.scrollY;
         console.log(height2)
         drop2.style.height = height + 'px';
     }
